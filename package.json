@@ -1,0 +1,17 @@
+{
+  "name": "jsporna-org",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src",
+    "preview": "vitepress preview src"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.25",
+    "vue": "^3.3.8"
+  }
+}
