@@ -33,7 +33,7 @@ jobs:
       - name: Build with VitePress
         run: |
           npm run build
-          touch srv/.vitepress/dist/.nojekyll
+          touch src/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
