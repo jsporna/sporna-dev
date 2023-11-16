@@ -32,6 +32,11 @@ export default defineConfig({
         ],
         outline: [2, 6],
     },
+    head: [
+        ['link', { rel: "icon", type: "image/png", sizes: "64x64", href: "./static/logo/logo-64.png"}],
+        ['link', { rel: "icon", type: "image/png", sizes: "128x128", href: "./static/logo/logo-128.png"}],
+        ['link', { rel: "shortcut icon", href: "./static/logo/logo-64.png"}],
+    ],
     lastUpdated: false,
     useWebFonts: true,
     appearance: 'dark'
