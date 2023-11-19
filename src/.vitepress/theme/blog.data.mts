@@ -35,6 +35,7 @@ function formatDate(raw) {
 }
 
 function getImagePath(url: String) {
+    const folder = '/static/blog/'
     const filename = url.split('/').slice(-1)[0].split('.')[0]
-    return filename + '.png'
+    return folder + filename + '.png'
 }
