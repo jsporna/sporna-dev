@@ -127,7 +127,7 @@ Konfiguracja połączeń została zrealizowana poprzez nmcli z poziomu konsoli.
 
 Wisienką na torcie jest dante-server, który pełni rolę SOCKS proxy. Nasłuchując na porcie 1080, przekierowuje ruch do tunelu VPN.
 
-```conf
+```txt
 logoutput: /var/log/sockd.log
 
 internal: eth0 port = 1080
@@ -183,7 +183,7 @@ I tak oto mamy przygotowaną przeglądarkę do pracy przez tunel VPN.
 
 W pliku **~/.ssh/config** możemy zdefiniować sobie pojedyncze hosty lub ich grupy, dla których komunikacja będzie odbywać się przez proxy.
 
-```conf
+```txt
 Host 10.20.*
     ProxyCommand nc -x localhost:1081 %h %p
 
@@ -199,7 +199,7 @@ Host 10.10.1.120
 Jeżeli komunikacja z repozytoriami kodu nie korzysta z SSH to dodatkowo potrzebujemy ustawić proxy.  
 W pliku **~/.gitconfig** dodajemy wpisy:
 
-```conf
+```txt
 [includeIf "gitdir:~/Projects/clientA/"]
         path = ~/Projects/clientA/.gitconfig
 
@@ -209,7 +209,7 @@ W pliku **~/.gitconfig** dodajemy wpisy:
 
 co pozwala na wczytywanie dodatkowej konfiguracji w zależności od umiejscowienia lokalnej kopii repozytorium w drzewie katalogów → [SRC](https://git-scm.com/docs/git-config#_includes). Do takiego pliku **~/Projects/clientX/.gitconfig** dopisujemy:
 
-```conf
+```txt
 [http]
         proxy = socks5h://localhost:1080
 ```
