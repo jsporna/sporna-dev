@@ -44,7 +44,7 @@ export default {
 .post {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 0px;
+  grid-gap: 0;
   margin-bottom: 10px;
   padding: 10px 10px;
   border: 1px solid grey;

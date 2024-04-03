@@ -142,3 +142,8 @@
     font-weight: normal;
 }
 
+p img {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
