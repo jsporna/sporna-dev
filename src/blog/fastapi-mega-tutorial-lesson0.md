@@ -25,7 +25,7 @@ Jako że chciałem wykorzystać to, czego się uczę, w odmętach Internetu traf
 
 Wówczas to był mini framework. Wiele rzeczy trzeba było sobie dopisać samemu. Nie wszystko dla początkującego adepta 
 Pythona było oczywiste. Potrzebowałem się na czymś oprzeć i w sieci trafiłem na bardzo fajny 
-[tutorial]((https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-legacy)) 
+[tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-legacy) 
 Miguela Grinberga z 2012 roku, autora książki [Flask Web Development](https://amzn.to/3lE2mok).
 Doczekał się on rewizji w [2018](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-2018)
 i w [2023](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
