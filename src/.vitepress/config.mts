@@ -12,14 +12,9 @@ export default defineConfig({
                 activeMatch: '/index',
             },
             {
-                text: 'Kontakt',
-                link: '/contact',
-                activeMatch: '/contact',
-            },
-            {
-                text: 'Oferta',
-                link: '/offer',
-                activeMatch: '/offer',
+                text: 'DevOps',
+                link: '/ops',
+                activeMatch: '/ops',
             },
             {
                 text: 'Blog',
