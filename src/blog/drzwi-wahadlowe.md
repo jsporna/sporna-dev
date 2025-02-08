@@ -80,6 +80,7 @@ niezbędne. Weryfikuj założenia, mierz wskaźniki i optymalizuj w razie potrze
 Wspierajmy kulturę, która postrzega **decyzję** jako **okazję do nauki i doskonalenia**.
 
 ![drzwi-wahadlowe-1](/static/blog/drzwi-wahadlowe-1.png "Nie stójmy w miejscu!")
+> source: https://deepai.org
 
 <Quote author="Kabaret Moralnego Niepokoju">
 S: No to jakie pan chce w końcu drzwi?! Prawe czy lewe?! Prawe czy lewe?!<br>  
