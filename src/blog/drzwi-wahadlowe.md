@@ -60,7 +60,7 @@ korzyści. W takiej sytuacji można dość łatwo powrócić do poprzedniego nar
 do czasu i wysiłków poświęconych na eksperymenty przez zespół. Jest to cenne doświadczenie, ponieważ zespół się 
 rozwinął, a samo narzędzie może nie zostać ostatecznie przyjęte.
 
-Podobnie, jeżeli nowo zaimplementowany proces — dla przykładu inne podejście do _code review_ lub _standup'u_— 
+Podobnie, jeżeli nowo zaimplementowany proces — dla przykładu inne podejście do _code review_ lub _standup'u_ — 
 nie przyniesie korzyści lub negatywnie wpłynie na dynamikę zespołu, można go odrzucić, a zespół powróci do starego 
 procesu lub go zmodyfikować iteracyjnie, aby lepiej spełniał ich potrzeby.
 
